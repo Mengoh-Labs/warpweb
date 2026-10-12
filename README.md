@@ -85,4 +85,4 @@ IME composition, OS drag-and-drop, passkeys/system authentication UI, DRM, and f
 
 ## Contribute and license
 
-Contributions go through [pull requests](CONTRIBUTING.md). Source code is [MIT](LICENSE); Kairo artwork has [separate branding terms](LICENSE-ASSETS.md). See [asset provenance](ASSETS.md). WarpWeb is independent of Warp and Apple and does not imply their endorsement.
+Contributions go through [pull requests](CONTRIBUTING.md). Source code is [MIT](LICENSE); Kairo artwork is [CC BY 4.0 with attribution](LICENSE-ASSETS.md), allowing reuse and adaptation. Trademark rights remain separate. See [asset provenance](ASSETS.md). WarpWeb is independent of Warp and Apple and does not imply their endorsement.
