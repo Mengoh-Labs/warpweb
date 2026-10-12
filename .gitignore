@@ -1,0 +1,17 @@
+.build/
+.swiftpm/
+run/
+.DS_Store
+.playwright-cli/
+
+# Credentials and local release evidence
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
+security-audit-private/
