@@ -17,3 +17,5 @@ Review dependency updates and GitHub workflow changes as code. Never add reposit
 Web content and trusted chrome use separate WebKit views. Page context events run in an isolated content world and require a recent native right-click on the active tab. The optional HTTP viewer is loopback-only, with exact Host/Origin checks and a random session path. Keep the URL private: possession controls the session. There is no supported public network deployment.
 
 Diagnostics are opt-in and retain full URLs and titles. Session/diagnostic files are written atomically with mode 0600 before publication. Files and directories you intentionally share can still reveal their contents. Capture uses an owned window, never a desktop display filter. A local program running as your user is outside this protection boundary. Keep macOS and WebKit updated.
+
+Administrators can bypass the review requirement only when merging a pull request, so a sole maintainer can submit their own fixes. Required CI checks and the main-branch force-push/deletion protections have no bypass actors. Administrators retain the ability to change repository settings.
